@@ -42,6 +42,10 @@ def logout():
     logout_user(current_user)
     return redirect(url_for('start'))
 
+@app.route("/hoba")
+def hoba():
+    return "hobba roby"
+
 
 
 
